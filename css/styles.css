@@ -12,7 +12,7 @@
 
 body {
   display: block;
-  width: 1600px;
+  /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
@@ -686,6 +686,7 @@ p {
   display: inline-flex;
   background-color: transparent;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .close-button:hover {
@@ -718,6 +719,7 @@ p {
 .subscribe-input-email {
   height: 50px;
   width: 358px;
+  padding: 15px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -800,6 +802,7 @@ p {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
+  resize: none;
 }
 
 .form-field-textarea:focus {
@@ -825,6 +828,7 @@ p {
 
 .chekbox-flx {
   display: flex;
+  justify-content: center;
 }
 
 .checkbox {
@@ -847,4 +851,9 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.license_lnk {
+  color: var(--color-selected);
+  text-decoration: underline;
 }
